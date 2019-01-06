@@ -13,6 +13,7 @@
 		18A577A421DD027C009A56F4 /* CustomViewThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A577A321DD027C009A56F4 /* CustomViewThree.xib */; };
 		18A577A621DD028C009A56F4 /* CustomViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A577A521DD028C009A56F4 /* CustomViewTwo.swift */; };
 		18A577A821DD029C009A56F4 /* CustomViewThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A577A721DD029C009A56F4 /* CustomViewThree.swift */; };
+		18A5A9A621E0F822002B3557 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A5A9A521E0F822002B3557 /* ProfileViewController.swift */; };
 		18D877C921DCFEF300FDF026 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D877C821DCFEF300FDF026 /* AppDelegate.swift */; };
 		18D877CB21DCFEF300FDF026 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D877CA21DCFEF300FDF026 /* ViewController.swift */; };
 		18D877CE21DCFEF300FDF026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D877CC21DCFEF300FDF026 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		18A577A321DD027C009A56F4 /* CustomViewThree.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewThree.xib; sourceTree = "<group>"; };
 		18A577A521DD028C009A56F4 /* CustomViewTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewTwo.swift; sourceTree = "<group>"; };
 		18A577A721DD029C009A56F4 /* CustomViewThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewThree.swift; sourceTree = "<group>"; };
+		18A5A9A521E0F822002B3557 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		18D877C521DCFEF300FDF026 /* ScrollViewMastering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewMastering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D877C821DCFEF300FDF026 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D877CA21DCFEF300FDF026 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				18D877CF21DCFEF500FDF026 /* Assets.xcassets */,
 				18D877D121DCFEF500FDF026 /* LaunchScreen.storyboard */,
 				18D877D421DCFEF500FDF026 /* Info.plist */,
+				18A5A9A521E0F822002B3557 /* ProfileViewController.swift */,
 			);
 			path = ScrollViewMastering;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A5A9A621E0F822002B3557 /* ProfileViewController.swift in Sources */,
 				18D877CB21DCFEF300FDF026 /* ViewController.swift in Sources */,
 				18D877C921DCFEF300FDF026 /* AppDelegate.swift in Sources */,
 				18A577A821DD029C009A56F4 /* CustomViewThree.swift in Sources */,

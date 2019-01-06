@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var viewOne: CustomViewOne!
+    @IBOutlet weak var viewTwo: CustomViewTwo!{
+        didSet{
+            viewTwo.parentViewController = self
+        }
+    }
+    @IBOutlet weak var viewThree: CustomViewThree!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
